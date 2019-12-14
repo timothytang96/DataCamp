@@ -103,8 +103,8 @@ x, y = ecdf(n_defaults)
 
 # Plot the ECDF with labeled axes
 _ = plt.plot(x, y, marker='.', linestyle='none')
-_ = plt.xlabel('x')
-_ = plt.ylabel('y')
+_ = plt.xlabel('number of defaults out of 100')
+_ = plt.ylabel('CDF')
 
 # Show the plot
 plt.show()
